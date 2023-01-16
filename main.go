@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mingrammer/flog/pkg"
+	"github.com/nikhilsbhat/flog/pkg"
 	"math/rand"
 	"time"
 
