@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/mingrammer/flog/pkg"
 	"math/rand"
 	"time"
 
@@ -9,8 +10,8 @@ import (
 
 func main() {
 	rand.Seed(time.Now().UnixNano())
-	opts := ParseOptions()
-	if err := Run(opts); err != nil {
+	opts := pkg.ParseOptions()
+	if err := pkg.Run(opts); err != nil {
 		cfmt.Warningln(err.Error())
 	}
 }
