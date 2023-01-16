@@ -1,6 +1,6 @@
-module github.com/mingrammer/flog
+module github.com/nikhilsbhat/flog
 
-go 1.14
+go 1.19
 
 require (
 	bou.ke/monkey v1.0.1
